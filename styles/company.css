@@ -1,0 +1,37 @@
+.headline2{
+    font-size: 40px;
+    background-color: rgb(37, 50, 237);
+    color:rgb(255, 255, 255) ;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    font-style: italic;
+}
+
+.info1{
+    font-size: 25px;
+}
+
+.picture{
+    text-align: left;
+    
+}
+.back>a{
+    text-align: right;
+    text-decoration: none;
+}
+
+@media(max-width: 520px){
+    .pavto{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media(max-width:400px){
+    .info1{
+        font-size: 20px;
+    }
+}

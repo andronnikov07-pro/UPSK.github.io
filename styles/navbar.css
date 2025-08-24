@@ -1,0 +1,63 @@
+.navbar{
+    display: flex;
+    background-color: rgb(37, 50, 237);
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list a{
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.nav-list a:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.nav-btn{
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .nav-btn{
+    font-size:2em;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(35,35,35);
+    display: block;
+    cursor: pointer;
+}
+.nav-list{
+    display: none;
+}
+
+.nav-btn:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.drop:hover .nav-list{
+    display: block;
+    position: absolute;
+    bottom: ;
+    right: 1px;
+    background-color: rgb(35,35,35);
+}
+.navbar{
+    justify-content: space-between;
+}
+}
+
+.ctr{
+    text-align: center;
+}
+
+.upsklogo{
+    max-width:125px;
+}

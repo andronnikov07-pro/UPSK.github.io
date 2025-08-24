@@ -1,0 +1,11 @@
+.headline3{
+    font-size: 40px;
+    background-color: rgb(37, 50, 237);
+    color:rgb(255, 255, 255) ;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    font-style: italic;
+}
